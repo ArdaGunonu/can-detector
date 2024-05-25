@@ -1,0 +1,26 @@
+I extracted images from videos with "video_to_image.py" file
+I have a dataset of 508 images (train set: 457  validation set: 51) in dataset file.
+I use CVAT data annotation tool on web for creating labels.
+
+YOLO model trained with this dataset (100 epoch).
+
+Predicted videos are created to predictions file with threshold value is end of its name.
+
+Note: Model is trained for close-up videos on a table
+
+Dataset folder structure:
+
+dataset
+|
+|-images
+|	|
+|	|-train
+|	|
+|	|-val
+|
+|
+|-labels
+|	|
+|	|-train
+|	|
+|	|-val

@@ -1,0 +1,6 @@
+path: C:\Users\ardag\OneDrive\Masaüstü\can_detector\dataset
+train: images\train
+val: images\val
+
+names:
+  0: can
